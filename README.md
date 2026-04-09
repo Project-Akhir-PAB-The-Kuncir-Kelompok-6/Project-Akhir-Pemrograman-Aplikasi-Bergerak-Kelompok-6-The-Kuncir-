@@ -4,13 +4,13 @@ Selamat datang di repository **Panasea Zone Coffee System**. Aplikasi ini adalah
 
 ---
 
-## 👤 Informasi Project (Kelompok 6 - Kelas C)
+## 👤 Anggota Team The Kuncir (Kelompok 6) Kelas C
 
-* **Nama Anggota**:
-    1. Nabil Daffa Athalasyah (2409116090)
-    2. Moreno Ferdinand Farhantino (2409116097)
-    3. Danial Hirzan Akbary (2409116098)
-    4. Reswara Ganendra Rashi Dewa (2409116100)
+1. **Nabil Daffa Athalasyah** | 2409116090
+2. **Moreno Ferdinand Farhantino** | 2409116097
+3. **Danial Hirzan Akbary** | 2409116098
+4. **Reswara Ganendra Rashi Dewa** | 2409116100
+   
 * **Mata Kuliah**: Praktikum Pemrograman Aplikasi Bergerak 2026
 * **Framework**: Flutter
 * **Backend**: Supabase (Database & Auth)

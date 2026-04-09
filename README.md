@@ -45,7 +45,7 @@ Aplikasi ini dibangun menggunakan berbagai widget Flutter untuk menciptakan UI y
 
 ---
 
-## 📦 Penjelasan Package (Nilai Tambah)
+## 📦 Penjelasan Package
 
 Untuk meningkatkan fungsionalitas aplikasi, kami menggunakan beberapa library pihak ketiga:
 

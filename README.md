@@ -1,4 +1,4 @@
-# ☕ Panasea Zone Coffee | Smart Cashier & Management System
+# ☕ Panasea Zone Coffee | Smart Cashier & Management System 📊
 
 Selamat datang di repository **Panasea Zone Coffee System**. Aplikasi ini adalah solusi digital untuk manajemen operasional kedai kopi, mulai dari sistem kasir (Point of Sale) hingga pelaporan penjualan harian untuk manajemen/owner.
 

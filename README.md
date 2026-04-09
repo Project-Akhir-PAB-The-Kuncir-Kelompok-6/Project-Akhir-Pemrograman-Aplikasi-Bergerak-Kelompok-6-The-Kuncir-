@@ -75,4 +75,4 @@ Untuk meningkatkan fungsionalitas aplikasi, kami menggunakan beberapa library pi
 
 ---
 
-*Project ini dibuat untuk memodernisasi operasional Panasea Zone Coffee - Praktikum Pemrograman Aplikasi Bergerak 2026.*
+*Project ini dibuat oleh The Kuncir team (Kelompok 6) untuk memodernisasi operasional Panasea Zone Coffee - Praktikum Pemrograman Aplikasi Bergerak 2026.*

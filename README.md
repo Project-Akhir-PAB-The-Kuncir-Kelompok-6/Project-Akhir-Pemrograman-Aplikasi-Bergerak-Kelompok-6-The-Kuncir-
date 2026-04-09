@@ -1,68 +1,78 @@
-# ☕ Panasea Zone Coffee: Smart Cashier & Management System
+# ☕ Panasea Zone Coffee | Smart Cashier & Management System
 
-Selamat datang di repository **Panasea Zone Coffee System**, sebuah solusi digital manajemen operasional kedai kopi yang modern. Aplikasi ini dikembangkan menggunakan framework **Flutter** dan **Supabase** sebagai backend untuk membantu proses transaksi kasir dan pelaporan manajemen secara real-time.
-
----
-
-## 👤 Anggota Team The Kuncir (Kelompok 6) Kelas C
-
-1. **Nabil Daffa Athalasyah** | 2409116090
-2. **Moreno Ferdinand Farhantino** | 2409116097
-3. **Danial Hirzan Akbary** | 2409116098
-4. **Reswara Ganendra Rashi Dewa** | 2409116100
+Selamat datang di repository **Panasea Zone Coffee System**. Aplikasi ini adalah solusi digital untuk manajemen operasional kedai kopi, mulai dari sistem kasir (Point of Sale) hingga pelaporan penjualan harian untuk manajemen/owner.
 
 ---
 
-## 📝 Deskripsi Aplikasi & Alur Fitur
+## 👤 Informasi Project (Kelompok 6 - Kelas C)
 
-**Panasea Zone Coffee System** dirancang untuk mendigitalisasi pencatatan pesanan dan laporan keuangan. Aplikasi ini mengintegrasikan **Flutter** dengan **Supabase** untuk mengelola seluruh ekosistem kedai kopi:
-
-1. **Sistem Kasir (Order Entry)**: Staff kasir dapat menginput pesanan customer, memilih menu kopi/makanan, dan memproses transaksi dengan cepat.
-2. **Riwayat Transaksi**: Setiap transaksi yang selesai akan otomatis tersimpan ke database cloud (Supabase) secara real-time.
-3. **Monitoring Owner**: Owner atau Manager memiliki akses khusus untuk melihat riwayat transaksi harian dan total omzet per hari.
-4. **Laporan Penjualan**: Sistem otomatis mengkalkulasi total laporan penjualan harian untuk memudahkan evaluasi bisnis.
-5. **Autentikasi Keamanan**: Sistem login yang membedakan akses antara Staff (Kasir) dan Owner (Manajer).
-
----
-
-## 📸 Dokumentasi Aplikasi
-
-### Dashboard & Transaksi
-| Halaman Kasir | Input Pesanan | Riwayat Penjualan | Laporan Owner |
-| :---: | :---: | :---: | :---: |
-| ![Kasir](https://raw.githubusercontent.com/EazysPeazys/Mini-Project-2-PAB_Nabil-Daffa-Athalasyah/main/Daftar%20List%20Aset.png) | ![Order](https://raw.githubusercontent.com/EazysPeazys/Mini-Project-2-PAB_Nabil-Daffa-Athalasyah/main/Tambah%20Aset.png) | ![History](https://raw.githubusercontent.com/EazysPeazys/Mini-Project-2-PAB_Nabil-Daffa-Athalasyah/main/Table%20Editor.png) | ![Report](https://raw.githubusercontent.com/EazysPeazys/Mini-Project-2-PAB_Nabil-Daffa-Athalasyah/main/Update%20Profile%20Page.png)
-
-### Mode Tampilan
-| **Dark Mode (Night Shift)** | **Light Mode (Day Shift)** |
-| :---: | :---: |
-| ![Dark](https://raw.githubusercontent.com/EazysPeazys/Mini-Project-2-PAB_Nabil-Daffa-Athalasyah/main/Dark%20Theme.png) | ![Light](https://raw.githubusercontent.com/EazysPeazys/Mini-Project-2-PAB_Nabil-Daffa-Athalasyah/main/Light%20Theme.png) |
+* **Nama Anggota**:
+    1. Nabil Daffa Athalasyah (2409116090)
+    2. Moreno Ferdinand Farhantino (2409116097)
+    3. Danial Hirzan Akbary (2409116098)
+    4. Reswara Ganendra Rashi Dewa (2409116100)
+* **Mata Kuliah**: Praktikum Pemrograman Aplikasi Bergerak 2026
+* **Framework**: Flutter
+* **Backend**: Supabase (Database & Auth)
 
 ---
 
-## ✨ Fitur Teknis Utama
+## 📝 Deskripsi Aplikasi
 
-1. **Real-time Database**: Menggunakan **Supabase** agar owner bisa memantau penjualan dari mana saja secara instan.
-2. **State Management**: Implementasi **GetX** untuk logika keranjang belanja dan navigasi aplikasi yang ringan.
-3. **Secure Credentials**: Penggunaan `flutter_dotenv` untuk melindungi API Key dan kredensial database.
-4. **Dynamic Reporting**: Penarikan data (Fetch) laporan harian yang akurat berdasarkan timestamp transaksi.
+**Panasea Zone Coffee System** dirancang untuk membantu UMKM kedai kopi dalam mendigitalisasi proses transaksi. Aplikasi ini menggantikan pencatatan manual dengan sistem berbasis cloud, memungkinkan kasir menginput pesanan dengan cepat dan pemilik (owner) dapat memantau total omzet serta riwayat transaksi harian secara real-time dari mana saja.
+
+---
+
+## 🚀 Fitur Utama
+
+1.  **Sistem Kasir (Order Entry)**: Input menu pesanan customer secara dinamis.
+2.  **Manajemen Transaksi (CRUD)**: Menambah, melihat, mengedit, dan menghapus data transaksi/pesanan.
+3.  **Laporan Penjualan Harian**: Dashboard khusus bagi Manager/Owner untuk melihat total pendapatan per hari.
+4.  **Autentikasi User**: Login aman menggunakan Supabase Auth untuk Staff dan Owner.
+5.  **Real-time Database**: Sinkronisasi data instan antara aplikasi kasir dan dashboard owner.
+6.  **Dual Theme Support**: Mendukung tampilan Light Mode dan Dark Mode.
 
 ---
 
 ## 🛠️ Widget yang Digunakan
 
-* **Layout & Navigation**: `Scaffold`, `GetMaterialApp`, `ListView.builder`, `BottomNavigationBar`.
-* **Data & Logic**: `GetXController`, `Obx`, `FutureBuilder`, `SupabaseClient`.
-* **Design & Theme**: `ThemeData` (Dynamic Dark/Light Mode), `Card`, `GoogleFonts`.
+Aplikasi ini dibangun menggunakan berbagai widget Flutter untuk menciptakan UI yang responsif:
+* **Layout**: `Scaffold`, `Container`, `Column`, `Row`, `Padding`, `SizedBox`, `Expanded`, `Stack`.
+* **Navigation**: `GetMaterialApp`, `BottomNavigationBar`, `Drawer`.
+* **Form & Input**: `TextField`, `TextFormField`, `IconButton`, `ElevatedButton`.
+* **Data Display**: `ListView.builder` (untuk daftar menu & riwayat), `Card`, `ListTile`, `FutureBuilder`, `Obx`.
+* **Feedback**: `Get.snackbar`, `CircularProgressIndicator`.
 
 ---
 
-## 🚀 Cara Menjalankan Project
+## 📦 Penjelasan Package (Nilai Tambah)
 
-1. Clone repository ini.
-2. Siapkan file `.env` berisi `SUPABASE_URL` dan `SUPABASE_KEY`.
-3. Jalankan `flutter pub get` di terminal.
-4. Jalankan aplikasi dengan `flutter run`.
+Untuk meningkatkan fungsionalitas aplikasi, kami menggunakan beberapa library pihak ketiga:
+
+1.  **`get` (GetX)**: Digunakan sebagai *State Management* untuk mengelola logika keranjang belanja dan navigasi antar halaman tanpa *context*.
+2.  **`supabase_flutter`**: Library utama untuk menghubungkan aplikasi dengan database PostgreSQL dan sistem autentikasi Supabase.
+3.  **`flutter_dotenv`**: Digunakan untuk keamanan data sensitif (API Key dan URL Supabase) agar tidak terekspos langsung di dalam kode sumber.
+4.  **`google_fonts`**: Digunakan untuk kustomisasi tipografi agar tampilan aplikasi lebih modern dan profesional.
+5.  **`intl`**: Digunakan untuk memformat mata uang (IDR) dan tanggal pada laporan penjualan agar mudah dibaca.
 
 ---
 
-*Project ini dibuat oleh The Kuncir Team untuk memodernisasi operasional Panasea Zone Coffee - Praktikum Pemrograman Aplikasi Bergerak 2026.*
+## 📸 Dokumentasi Aplikasi
+
+| Landing Page | Login Kasir | Input Pesanan | Laporan Owner |
+| :---: | :---: | :---: | :---: |
+| ![Landing](https://raw.githubusercontent.com/EazysPeazys/Mini-Project-2-PAB_Nabil-Daffa-Athalasyah/main/Landing%20Page.png) | ![Login](https://raw.githubusercontent.com/EazysPeazys/Mini-Project-2-PAB_Nabil-Daffa-Athalasyah/main/Login%20Page.png) | ![Order](https://raw.githubusercontent.com/EazysPeazys/Mini-Project-2-PAB_Nabil-Daffa-Athalasyah/main/Tambah%20Aset.png) | ![Report](https://raw.githubusercontent.com/EazysPeazys/Mini-Project-2-PAB_Nabil-Daffa-Athalasyah/main/Update%20Profile%20Page.png)
+
+---
+
+## ⚙️ Cara Menjalankan Project
+
+1.  Pastikan Flutter SDK sudah terinstall.
+2.  Clone repository ini: `git clone [URL_REPO]`.
+3.  Buat file `.env` di root project dan masukkan kredensial Supabase Anda.
+4.  Jalankan `flutter pub get`.
+5.  Hubungkan device/emulator, lalu jalankan `flutter run`.
+
+---
+
+*Project ini dibuat untuk memodernisasi operasional Panasea Zone Coffee - Praktikum Pemrograman Aplikasi Bergerak 2026.*

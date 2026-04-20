@@ -61,10 +61,10 @@ Untuk meningkatkan fungsionalitas aplikasi, kami menggunakan beberapa library pi
 
 ## 📸 Dokumentasi Aplikasi
 
-| Landing Page | Login Kasir | Input Pesanan | Laporan Owner |
+| Landing Page | Login Page | Input Pesanan | Riwayat Penjualan |
 | :---: | :---: | :---: | :---: |
-| <img width="608" height="868" alt="Screenshot 2026-04-20 210821" src="https://github.com/user-attachments/assets/a0643b5c-6395-4bbf-8298-0e163b0147ec" />
-) | ![Login](https://raw.githubusercontent.com/EazysPeazys/Mini-Project-2-PAB_Nabil-Daffa-Athalasyah/main/Login%20Page.png) | ![Order](https://raw.githubusercontent.com/EazysPeazys/Mini-Project-2-PAB_Nabil-Daffa-Athalasyah/main/Tambah%20Aset.png) | ![Report](https://raw.githubusercontent.com/EazysPeazys/Mini-Project-2-PAB_Nabil-Daffa-Athalasyah/main/Update%20Profile%20Page.png)
+| <img width="608" height="868" alt="Screenshot 2026-04-20 210821" src="https://github.com/user-attachments/assets/a0643b5c-6395-4bbf-8298-0e163b0147ec" />|<img width="608" height="866" alt="Screenshot 2026-04-20 211520" src="https://github.com/user-attachments/assets/99916c6e-0571-4e2e-b520-c13238bf12b7" />|<img width="607" height="865" alt="Screenshot 2026-04-20 211704" src="https://github.com/user-attachments/assets/c00cc5a6-2b17-420d-98dd-96236a0c1598" />|<img width="606" height="866" alt="Screenshot 2026-04-20 211818" src="https://github.com/user-attachments/assets/d192661f-3fda-412b-ad62-ae13c715f6bc" />
+
 
 ---
 

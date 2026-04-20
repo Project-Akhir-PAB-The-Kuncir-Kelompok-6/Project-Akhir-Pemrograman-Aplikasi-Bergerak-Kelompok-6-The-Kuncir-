@@ -19,7 +19,9 @@ Selamat datang di repository **Panasea Zone Coffee System**. Aplikasi ini adalah
 
 ## 📝 Deskripsi Aplikasi
 
-**Panasea Zone Coffee System** dirancang untuk membantu UMKM kedai kopi dalam mendigitalisasi proses transaksi. Aplikasi ini menggantikan pencatatan manual dengan sistem berbasis cloud, memungkinkan kasir menginput pesanan dengan cepat dan pemilik (owner) dapat memantau total omzet serta riwayat transaksi harian secara real-time dari mana saja.
+**Panasea Zone Coffee System** hadir sebagai solusi digital untuk memodernisasi operasional kedai kopi dari sistem manual ke ekosistem berbasis cloud. Aplikasi ini dirancang untuk mengatasi masalah klasik UMKM, seperti risiko kehilangan data transaksi dan ketidakakuratan rekapitulasi harian. Dengan integrasi Flutter dan Supabase, kasir dapat memproses pesanan pelanggan dengan jauh lebih cepat dan akurat, sementara seluruh data tersimpan secara aman di server pusat.
+
+Keunggulan utama sistem ini terletak pada transparansi dan aksesibilitasnya; pemilik usaha dapat memantau total omzet serta riwayat transaksi secara real-time dari mana saja tanpa harus berada di lokasi. Selain meminimalisir human error, aplikasi ini memastikan manajemen keuangan menjadi lebih rapi, profesional, dan terkontrol. Dengan antarmuka yang intuitif, Panasea Zone Coffee System mengubah cara pengelolaan kedai menjadi lebih efisien, membantu pemilik usaha mengambil keputusan berbasis data yang akurat untuk kemajuan bisnis ke depannya.
 
 ---
 
